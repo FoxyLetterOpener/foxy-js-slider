@@ -1,0 +1,23 @@
+{
+  "name": "foxy-js-slider",
+  "version": "1.0.0",
+  "description": "js for simple sliders",
+  "main": "dist/slider.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FoxyLetterOpener/foxy-js-slider.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FoxyLetterOpener/foxy-js-slider/issues"
+  },
+  "homepage": "https://github.com/FoxyLetterOpener/foxy-js-slider#readme",
+  "devDependencies": {
+    "terser": "^5.39.0"
+  }
+}
