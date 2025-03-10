@@ -2,11 +2,7 @@
 ## purpose
 the foxy-js-slider provides code that does a simple thing, it makes a slider slideable. It is intended to be used to allow click and drag on desktop while allowing native touch scrolling to be used on mobile devices, and native mousewheel scrolling to be preserved on desktop. This allows the user to take their pick of their preferred scroll method.
 ## Deployment
-- for new versions, tag and push (must do this seperate from push, since vs code doesn't push tags automatically)
-```
-git tag v1.0.0
-git push origin v1.0.0
-```
+
 access via jsdeliver
 ex: https://cdn.jsdelivr.net/gh/FoxyLetterOpener/foxy-js-slider@v1.0.0/dist/slider.min.js
 just replace the version number
