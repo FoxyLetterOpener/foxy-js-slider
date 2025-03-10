@@ -39,6 +39,7 @@ jobs:
       - name: Commit built file if changed
         run: |
           if [ -n "$(git status --porcelain dist/slider.min.js)" ]; then
+            git remote set-url origin https://x-access-token:${{ secrets.SLIDER_RELEASE_KEY }}@github.com/FoxyLetterOpener/foxy-js-slider.git
             git add dist/slider.min.js
             git commit -m "chore: update slider.min.js [skip ci]"
             git push
