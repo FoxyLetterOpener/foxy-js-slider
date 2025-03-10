@@ -4,7 +4,7 @@
   "description": "js for simple sliders",
   "main": "dist/slider.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "terser src/slider.js -o dist/slider.min.js --compress --mangle"
   },
   "repository": {
     "type": "git",
